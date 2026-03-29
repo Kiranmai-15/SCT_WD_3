@@ -1,3 +1,8 @@
+function startQuiz() {
+    document.getElementById("start-screen").style.display = "none";
+    document.getElementById("quiz-container").style.display = "block";
+    loadQuestion();
+}
 const quiz = [
     {
         question: "What is the capital of India?",
@@ -10,10 +15,17 @@ const quiz = [
         answer: "JavaScript"
     },
     {
-        question: "2 + 6 = ?",
-        options: ["6", "8", "10"],
-        answer: "8"
-    }
+        question: "4-9-7+6" = ?",
+        options: ["-6", "-8", "10"],
+        answer: "-6"
+        
+    },
+    { 
+        question:"What is the natural hardest substance on earth?",
+        options:["Diamond","Gold","Silver"],
+        answer:"Diamond"
+    },
+    
 ];
 
 let index = 0;
