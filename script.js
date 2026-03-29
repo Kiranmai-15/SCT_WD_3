@@ -15,7 +15,7 @@ const quiz = [
         answer: "JavaScript"
     },
     {
-        question: "4-9-7+6" = ?",
+        question: "4-9-7+6",
         options: ["-6", "-8", "10"],
         answer: "-6"
         
