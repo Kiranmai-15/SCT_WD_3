@@ -77,3 +77,28 @@ button:hover {
     background: #00e5ff;
     transition: width 0.5s;
 }
+.start-screen {
+    text-align: center;
+    color: white;
+    animation: fadeIn 1s ease;
+}
+
+.start-screen h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.start-screen button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #00e5ff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-screen button:hover {
+    background: #00bcd4;
+    transform: scale(1.1);
+}
